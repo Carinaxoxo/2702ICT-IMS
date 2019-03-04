@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>Photo Album</title>
+</head>
+<body>
+    <header>
+        My Photo Album
+    </header>
+    <button type="button" id="login">Login</button>
+    <main>
+        <nav>
+            <h1> Categories </h1>
+            <navbar>
+                <div>
+                    <ul id="baritems">
+                        <li style="list-style-type:none;"><a href="">General</a></li>
+                        <li style="list-style-type:none;"><a href="">Nature</a></li>
+                        <li style="list-style-type:none;"><a href="">Macro</a></li>
+                        <li style="list-style-type:none;"><a href="">Protrait</a></li>
+                        <li style="list-style-type:none;"><a href="">Sports</a></li>
+                        <li style="list-style-type:none;"><a href="">Astrophotography</a></li>
+                    </ul>
+                </div>
+                <div id="searchbox">
+                    <p><input type="text" id="search-input"><br>
+                    <br>
+                    <button id="search-btn">Search</button></p>
+                </div>
+            </navbar>
+        </nav>
+        <container>
+            <div id="thumbnails">
+                <figure><a href="photos/DSC01049.JPG"></a><img src="photos/DSC01049.JPG" width=200 height=200 alt="image"><figcaption>City View</figcaption></figure>
+                <figure><a href="photos/DSC01066.JPG"></a><img src="photos/DSC01066.JPG" width=200 height=200 alt="image"><figcaption>Ferris Wheel</figcaption></figure>
+                <figure><a href="photos/DSC02511.jpg"></a><img src="photos/DSC02511.jpg" width=200 height=200 alt="image"><figcaption>A building in the forbbiden city with extra long text</figcaption></figure>
+                <figure><a href="/photos/DSC03810.jpg"></a><img src="photos/DSC03810.jpg" width=200 height=200 alt="image"><figcaption>City from Mt Gravatt lookout</figcaption></figure>
+                <figure><a href="photos/DSC05750.jpg"></a><img src="photos/DSC05750.jpg" width=200 height=200 alt="image"><figcaption>Sun rise</figcaption></figure>
+            </div>
+        </container>
+    </main>
+    <footer>
+        <span id="author">By Carina</span>
+    </footer>
+</body>
+</html>
